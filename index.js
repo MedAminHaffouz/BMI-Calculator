@@ -12,5 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let res = "Your BMI is " + bmi;
 
     // Use double quotes around the style value and avoid curly braces
-    paragraph.innerHTML = "<p style='color:red;'>" + res + "</p>";
+    //paragraph.innerHTML = "<p style='color:red;'>" + res + "</p>";
+    alert(res);
 });
